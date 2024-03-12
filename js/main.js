@@ -1,5 +1,7 @@
 import { getFilmes, getFilme } from "./filmes.js"
 
+
+
 function criarCard(filme) {
     
     const card = document.createElement('div')
@@ -30,4 +32,9 @@ preencherContainer()
 
 
 
-console.table(await getFilme(1))
+//console.table(await getFilme(1))
+
+const filme = {
+
+    
+}
